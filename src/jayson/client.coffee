@@ -7,17 +7,10 @@ client = jayson.client.http {
   hostname: 'localhost'
 }
 
-test = (i, cb)->
-  client.request 'add', [1, 2], (err, error, response)->
-    cb(null, response)
-
-start = new Date().getTime()
-async.map [0..iteration_num], test, (err, results)->
-  console.log results.length
-  end = new Date().getTime()
-  sec = end - start
-  console.log 'latency:', sec, 'ms'
-
+module.exports = (cb)->
+  cb (cb)->
+    client.request 'add', [1, 2], (err, error, response)->
+      cb(null, response)
 # results:
 # 100 -> 43ms
 # 1000 -> 218ms
