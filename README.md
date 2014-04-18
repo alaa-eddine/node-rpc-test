@@ -1,5 +1,5 @@
 
-| module                | eureca.io | dnode *   |
+| module                | eureca.io |     dnode |
 |:----------------------|----------:|:---------:|
 | concurrent connection |        70 |        30 |
 | latency(avg) ms       |      2.98 |       5.9 |
