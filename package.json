@@ -1,0 +1,27 @@
+{
+  "name": "node-rpc-test",
+  "description": "",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "dnode": "^1.2.0",
+    "async": "^0.7.0",
+    "lodash": "^2.4.1",
+    "json-rpc2": "^0.4.3",
+    "vein": "^0.5.5",
+    "node-json-rpc": "0.0.1",
+    "eureca.io": "^0.5.11",
+    "jayson": "^1.0.11"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "chai": "~1.8.1",
+    "should": "~2.1.1",
+    "coffee-script": "~1.6.3",
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.8.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-cli": "~0.1.13"
+  },
+  "scripts": {}
+}
