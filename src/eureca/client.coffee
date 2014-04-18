@@ -7,7 +7,6 @@ module.exports = (cb)->
       client.test(1, 2).onReady (result)->
         cb(null, result)
 
-
 # results:
 # 100 -> 22ms
 # 1000 -> 69ms
