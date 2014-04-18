@@ -1,15 +1,11 @@
 
 # modules
 
-* eureca.io
-* framed-msgpack-rpc
-* dnode
-* jayson
-
-I can't 
-
-* (jsonrpc2) fail?
-* (vein) fail?
+* [eureca.io](https://github.com/ezelia/eureca.io/)
+* [framed-msgpack-rpc](https://github.com/maxtaco/node-framed-msgpack-rpc)
+* [dnode](https://github.com/substack/dnode)
+* [jayson](https://github.com/tedeh/jayson)
+* [zerorpc](https://github.com/dotcloud/zerorpc-node)
 
 # run
 
@@ -23,7 +19,7 @@ run.sh eureca 50000 100
 
 # results
 
-| module                | eureca.io |   msgpack |     dnode |    jayson |    zeromq |
+| module                | eureca.io |   msgpack |     dnode |    jayson |   zerorpc |
 |:----------------------|----------:|----------:|----------:|----------:|----------:|
 | concurrent connection |        70 |        10 |        30 |        70 |        50 |
 | latency(avg) ms       |      2.98 |       0.7 |       5.9 |       6.5 |       4.9 |
