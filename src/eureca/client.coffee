@@ -3,7 +3,7 @@ client = new EurecaClient({ uri: 'http://localhost:8011/' })
 
 module.exports = (cb)->
   client.ready (client)->
-    cb (i, cb)->
+    cb (cb)->
       client.test(1, 2).onReady (result)->
         cb(null, result)
 
