@@ -2,10 +2,14 @@
 # modules
 
 * eureca.io
+* framed-msgpack-rpc
 * dnode
 * jayson
-* (jsonrpc2)
-* (vein)
+
+I can't 
+
+* (jsonrpc2) fail?
+* (vein) fail?
 
 # run
 
@@ -19,12 +23,12 @@ run.sh eureca 50000 100
 
 # results
 
-| module                | eureca.io |     dnode |    jayson |
-|:----------------------|----------:|----------:|----------:|
-| concurrent connection |        70 |        30 |        70 |
-| latency(avg) ms       |      2.98 |       5.9 |       6.5 |
-| latency(max) ms       |        23 |        76 |        27 |
-| tps                   |     23404 |      5107 |      7656 |
+| module                | eureca.io |   msgpack |     dnode |    jayson |    zeromq |
+|:----------------------|----------:|----------:|----------:|----------:|----------:|
+| concurrent connection |        70 |        10 |        30 |        70 |        50 |
+| latency(avg) ms       |      2.98 |       0.7 |       5.9 |       6.5 |       4.9 |
+| latency(max) ms       |        23 |         9 |        76 |        27 |        35 |
+| tps                   |     23404 |     14421 |      5107 |      7656 |     10024 |
 
 caution*:  
 When I tested dnode, I encountered strange behavior in which the script couldn't stop.
