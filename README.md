@@ -1,4 +1,24 @@
 
+# modules
+
+* eureca.io
+* dnode
+* jayson
+* (jsonrpc2)
+* (vein)
+
+# run
+
+`run.sh module_name transaction_num concurrent_num`
+
+for exam:
+
+```bash
+run.sh eureca 50000 100
+```
+
+# results
+
 | module                | eureca.io |     dnode |    jayson |
 |:----------------------|----------:|----------:|----------:|
 | concurrent connection |        70 |        30 |        70 |
