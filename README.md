@@ -33,3 +33,9 @@ run.sh eureca 50000 100
 | tps                   |     23404 |     14421 |      5107 |      7656 |     10024 |
 
 The number of concurrent connections are determined by maximum tps.
+
+# system spec
+
+* macbook pro retina
+* 2.6 GHz Core i7
+* 16GB 1600 MHz DDR3
