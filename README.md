@@ -7,6 +7,12 @@
 * [jayson](https://github.com/tedeh/jayson)
 * [zerorpc](https://github.com/dotcloud/zerorpc-node)
 
+# compile
+
+```bash
+grunt
+```
+
 # run
 
 `run.sh module_name transaction_num concurrent_num`
@@ -26,5 +32,4 @@ run.sh eureca 50000 100
 | latency(max) ms       |        23 |         9 |        76 |        27 |        35 |
 | tps                   |     23404 |     14421 |      5107 |      7656 |     10024 |
 
-caution*:  
-When I tested dnode, I encountered strange behavior in which the script couldn't stop.
+The number of concurrent connections are determined by maximum tps.
