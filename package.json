@@ -14,7 +14,9 @@
     "jayson": "^1.0.11",
     "zerorpc": "^0.9.3",
     "framed-msgpack-rpc": "^1.1.2",
-    "multitransport-jsonrpc": "^0.4.0"
+    "multitransport-jsonrpc": "^0.4.0",
+    "socket.io": "^1.2.0",
+    "socket.io-client": "^1.2.0"
   },
   "devDependencies": {
     "mocha": "~1.16.2",

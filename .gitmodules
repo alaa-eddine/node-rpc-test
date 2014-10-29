@@ -1,0 +1,3 @@
+[submodule "lib/bolt-rpc"]
+	path = lib/bolt-rpc
+	url = git@github.com:nashibao/bolt-rpc.git
